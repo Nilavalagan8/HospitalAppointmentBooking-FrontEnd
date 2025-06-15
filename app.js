@@ -18,6 +18,7 @@ const handlebars = exphbs.create({extname:".hbs"});
 app.engine('hbs',handlebars.engine);
 app.set("view engine","hbs");
 
+//rout
 app.use('/',routes);
 
  app.listen(port,()=>{
